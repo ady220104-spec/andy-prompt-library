@@ -30,8 +30,8 @@
 
 备份助手需要 Python 3，并且要放在扩展目录里才能自动识别扩展 ID：
 
-1. 下载本仓库（`Code` → `Download ZIP`，或 `git clone`），解压到固定目录。
-2. `chrome://extensions` →「加载已解压的扩展程序」→ 选 `安迪提示词库-插件` 文件夹。
+1. 下载本仓库（`Code` → `Download ZIP`，或 `git clone`），或下载 Release 里的 `andy-prompts-v1.1.5-full.zip`（已含本机助手），解压到固定目录。
+2. `chrome://extensions` →「加载已解压的扩展程序」→ 选 `安迪提示词库-插件` 文件夹（full 包解压后就是该文件夹）。
 3. 在这个文件夹里双击 `修复备份.cmd`（或右键 `backup-host\登记备份助手.ps1` →「使用 PowerShell 运行」）。脚本会按当前目录自动推导扩展 ID，逐项打印 PASS/FAIL。
 4. 刷新扩展 → 关掉重开侧边栏 → 右键工具栏图标「重新备份提示词库到硬盘」。
 
